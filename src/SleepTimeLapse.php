@@ -6,11 +6,19 @@ use function sleep;
 
 final class SleepTimeLapse implements TimeLapseInterface
 {
+    /** @var int */
+    private $time;
+
+    public function __construct(int $time)
+    {
+        $this->time = $time;
+    }
+
     /**
      * @inheritDoc
      */
-    public function lapse(int $time): void
+    public function lapse(): void
     {
-        sleep($time);
+        sleep($this->time);
     }
 }

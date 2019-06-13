@@ -4,5 +4,5 @@ namespace Qlimix\Time;
 
 interface TimeLapseInterface
 {
-    public function lapse(int $time): void;
+    public function lapse(): void;
 }
