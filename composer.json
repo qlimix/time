@@ -4,7 +4,6 @@
     "description": "An interface to lapse time",
     "license": "MIT",
     "keywords": [
-        "qlimix",
         "time",
         "lapse"
     ],
@@ -14,6 +13,9 @@
             "email": "frank@qlimix.net"
         }
     ],
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "Qlimix\\Time\\": "src/"
