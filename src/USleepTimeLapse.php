@@ -6,8 +6,7 @@ use function usleep;
 
 final class USleepTimeLapse implements TimeLapseInterface
 {
-    /** @var int */
-    private $time;
+    private int $time;
 
     public function __construct(int $time)
     {
