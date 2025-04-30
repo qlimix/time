@@ -10,7 +10,7 @@ final class USleepTimeLapseTest extends TestCase
     /**
      * @test
      */
-    public function shouldLapseTime(): void
+    public function testShouldLapseTime(): void
     {
         $sleep = new USleepTimeLapse(2000000);
 
