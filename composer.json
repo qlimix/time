@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.4"
     },
     "autoload": {
         "psr-4": {
@@ -27,9 +27,13 @@
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpro/grumphp": true
+        }
     },
     "require-dev": {
-        "qlimix/code-standard": "^2.0"
+        "qlimix/code-standard": "dev-upgrade-4.0"
     }
 }
