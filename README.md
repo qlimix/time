@@ -1,5 +1,7 @@
 # Time
 
+> **Archived:** this package is no longer maintained.
+
 [![Travis CI](https://api.travis-ci.org/qlimix/time.svg?branch=master)](https://travis-ci.org/qlimix/time)
 [![Coveralls](https://img.shields.io/coveralls/github/qlimix/time.svg)](https://coveralls.io/github/qlimix/time)
 [![Packagist](https://img.shields.io/packagist/v/qlimix/time.svg)](https://packagist.org/packages/qlimix/time)
